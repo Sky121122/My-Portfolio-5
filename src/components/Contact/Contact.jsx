@@ -251,6 +251,7 @@ function Contact() {
                 id="name"
                 type="text"
                 placeholder="Enter Your Name"
+                required
               />
 
             </div>

@@ -312,7 +312,9 @@
     margin-bottom: 45px;
   }
 
-
+.label{
+  font-size: 22px;
+}
   .stackRow {
     grid-template-columns: 35px 1fr;
 
@@ -320,7 +322,6 @@
 
     padding: 25px 5px;
   }
-
 
   .number {
     align-self: flex-start;
@@ -335,11 +336,10 @@
     gap: 8px;
   }
 
-
   .category p {
     max-width: 300px;
 
-    font-size: 9px;
+    font-size: 12px;
   }
 
 
@@ -360,7 +360,7 @@
 
 
   .techName {
-    font-size: 9px;
+    font-size: 15px;
   }
 
 

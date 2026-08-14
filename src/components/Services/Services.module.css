@@ -445,7 +445,9 @@ border: 1px solid rgba(124, 58, 237, 0.3);
 /* ================= MOBILE ================= */
 
 @media (max-width: 600px) {
-
+.label{
+  font-size: 22px;
+}
   .headerRow {
     flex-direction: column;
 
@@ -939,7 +941,9 @@ border: 1px solid rgba(124, 58, 237, 0.3);
 
     gap: 25px;
   }
-
+.label{
+  font-size: 22px;
+}
 
   .headerMark {
     padding-bottom: 0;

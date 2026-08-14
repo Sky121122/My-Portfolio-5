@@ -1015,21 +1015,22 @@ border: none;
 
   }
 
+.label{
+  font-size: 22px;
+}
 
   .featuredCard {
 
     grid-template-columns: 1fr;
 
     height: auto;
-
     border-radius: 16px;
     
   }
   
   
   .featuredImage {
-    border-right: 0px solid #8b5cf6;
-    border-bottom: 1px solid #9b6cff;
+    
     height: 240px;
 
     min-height: 240px;
@@ -1086,7 +1087,9 @@ border: none;
 
   }
 
-
+.label{
+  font-size: 22px;
+}
   .featuredImage {
 
     height: 200px;
@@ -1105,14 +1108,14 @@ border: none;
 
   .featuredContent h3 {
 
-    font-size: 24px;
+    font-size: 28px;
 
   }
 
 
   .featuredContent p {
 
-    font-size: 13px;
+    font-size: 15px;
 
     line-height: 1.6;
 

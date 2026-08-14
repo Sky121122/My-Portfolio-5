@@ -629,7 +629,7 @@
   .hero {
     min-height: auto;
 
-    padding-top: 105px;
+    padding-top: 100px;
 
     padding-bottom: 70px;
   }
@@ -643,7 +643,7 @@
 
 
   .availability {
-    font-size: 8px;
+    font-size: 12px;
 
     padding: 7px 10px;
 
@@ -664,7 +664,6 @@
 
   .description {
     margin-top: 24px;
-
     font-size: 1.35rem;
   }
 
@@ -677,7 +676,7 @@
 
 
   .role strong {
-    font-size: 14px;
+    font-size: 18px;
   }
 
 
@@ -702,15 +701,13 @@
     flex-direction: column;
 
     gap: 10px;
-
     margin-top: 22px;
   }
 
 
   .visual {
     height: 470px;
-
-    margin-top: 0;
+    margin-top: 60px;
   }
 
 
@@ -743,15 +740,15 @@
 
 
   .statusCard h3 {
-    font-size: 12px;
+    font-size: 15px;
 
     margin-bottom: 11px;
   }
 
 
   .statusItem {
-    font-size: 9px;
-
+    font-size: 12px;
+    text-align: start;
     margin-top: 7px;
   }
 

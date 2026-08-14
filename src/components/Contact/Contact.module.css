@@ -525,8 +525,9 @@
   .header {
     margin-bottom: 40px;
   }
-
-
+.label{
+  font-size: 22px;
+}
   .contactGrid {
     gap: 12px;
   }
@@ -541,21 +542,23 @@
 
 
   .infoTitle {
-    font-size: 21px;
+    font-size: 22px;
   }
 
 
   .infoText {
-    font-size: 10px;
+    font-size: 15px;
 
     margin-bottom: 25px;
   }
 
-
   .socialSection {
     padding-top: 25px;
   }
-
+  
+.ctaLine span{
+  font-size: 15px;
+}
 
   .bottomCta {
     gap: 10px;
@@ -563,7 +566,7 @@
 
 
   .bottomCta span {
-    font-size: 6px;
+    font-size: 12px;
 
     text-align: center;
 
