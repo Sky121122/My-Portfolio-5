@@ -1,0 +1,321 @@
+.card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #111216;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+
+border: 1.6px solid rgba(124, 58, 237, 0.3);
+
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.28);
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.imageWrapper {
+  position: relative;
+
+  width: 100%;
+  height: 240px;
+
+  overflow: hidden;
+
+  background: #18191d;
+}
+
+.image {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.5s ease;
+}
+
+.card:hover .image {
+  transform: scale(1.04);
+}
+
+
+/* =========================
+   IMAGE OVERLAY
+========================= */
+
+.imageOverlay {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  padding: 16px;
+
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.35),
+      transparent 35%
+    );
+}
+
+.imageOverlay span {
+  padding: 7px 10px;
+
+  font-size: 10px;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+
+  color: rgba(255, 255, 255, 0.85);
+
+  background: rgba(0, 0, 0, 0.45);
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  border-radius: 6px;
+
+  backdrop-filter: blur(8px);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px;
+}
+
+
+/* =========================
+   NUMBER
+========================= */
+
+.projectNumber {
+  margin-bottom: 10px;
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: 0.15em;
+
+  color: #777b85;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.title {
+  margin: 0 0 10px;
+
+  font-size: 22px;
+  line-height: 1.2;
+
+  font-weight: 600;
+
+  color: #ffffff;
+}
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.description {
+  margin: 0;
+
+  max-width: 560px;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #8f939c;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 24px;
+  /* margin-top: 24px; */
+}
+
+
+/* PRIMARY */
+
+.primaryLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding: 10px 15px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  color: #ffffff;
+
+  background: #7c3aed;
+
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.primaryLink:hover {
+  background: #6d28d9;
+
+  transform: translateY(-1px);
+}
+
+
+/* SECONDARY */
+
+.secondaryLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding: 10px 15px;
+
+  font-size: 12px;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  color: #a0a4ad;
+
+  background: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+
+  transition:
+    color 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.secondaryLink:hover {
+  color: #ffffff;
+
+  border-color:
+    rgba(255, 255, 255, 0.22);
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .imageWrapper {
+    height: 210px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .links {
+    margin-top: 20px;
+  }
+ 
+}
+
+
+@media (max-width: 480px) {
+
+  .card {
+    border-radius: 14px;
+  }
+
+  .imageWrapper {
+    height: 190px;
+  }
+
+  .content {
+    padding: 18px;
+  }
+
+  .title {
+    font-size: 19px;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: auto;
+    /* padding-top: 24px; */
+  }
+
+  .primaryLink,
+  .secondaryLink {
+    width: 100%;
+
+  
+  }
+
+
+}

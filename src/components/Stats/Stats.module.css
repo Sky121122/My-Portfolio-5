@@ -1,0 +1,259 @@
+.statsSection {
+  position: relative;
+
+  padding: 0 0 20px;
+
+  z-index: 5;
+}
+
+
+/* ================= MAIN WRAPPER ================= */
+
+.statsWrapper {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  align-items: stretch;
+
+  min-height: 105px;
+
+  padding: 12px;
+
+  background: rgba(16, 18, 22, 0.72);
+
+  border: 1px solid rgba(124, 58, 237, 0.18);
+
+  border-radius: 18px;
+
+  backdrop-filter: blur(16px);
+
+  -webkit-backdrop-filter: blur(16px);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.025);
+}
+
+
+/* ================= STAT ================= */
+
+.stat {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+  font-size: 15px;
+  padding: 15px 22px;
+}
+
+
+/* ================= ICON ================= */
+
+.iconWrapper {
+  flex-shrink: 0;
+
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 12px;
+
+  color: #a78bfa;
+
+  background:
+    rgba(124, 58, 237, 0.08);
+
+  border:
+    1px solid rgba(124, 58, 237, 0.15);
+
+  transition:
+    transform 0.25s ease,
+    background 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+.stat:hover .iconWrapper {
+  transform: translateY(-2px);
+
+  background:
+    rgba(124, 58, 237, 0.15);
+
+  box-shadow:
+    0 8px 25px rgba(124, 58, 237, 0.15);
+}
+
+
+/* ================= CONTENT ================= */
+
+.content {
+  min-width: 0;
+
+  display: flex;
+font-size: 15px;
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+
+.value {
+  color: #f5f7fa;
+
+  font-family: 'Space Grotesk', sans-serif;
+
+  font-size: 20px;
+
+  line-height: 1.1;
+
+  font-weight: 600;
+
+  letter-spacing: -0.02em;
+}
+
+
+.label {
+  color: #f5f7fa;
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+
+.description {
+  margin-top: 2px;
+
+  color: #a4a9b2;
+
+  font-size: 12px;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* ================= DIVIDER ================= */
+
+.divider {
+  position: absolute;
+
+  right: 0;
+
+  top: 22%;
+
+  width: 1px;
+
+  height: 56%;
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      #2b2e35,
+      transparent
+    );
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 950px) {
+
+  .statsWrapper {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 0;
+  }
+
+
+  .stat {
+    min-height: 85px;
+  }
+
+
+  .stat:nth-child(2) .divider {
+    display: none;
+  }
+
+
+  .stat:nth-child(-n + 2) {
+    border-bottom:
+      1px solid rgba(255, 255, 255, 0.04);
+  }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 600px) {
+
+  .statsSection {
+    padding-bottom: 5px;
+  }
+
+
+  .statsWrapper {
+    grid-template-columns: 1fr;
+
+    padding: 7px;
+
+    border-radius: 15px;
+  }
+
+
+  .stat {
+    min-height: 70px;
+
+    padding:
+      12px 13px;
+  }
+
+
+  .stat:not(:last-child) {
+    border-bottom:
+      1px solid rgba(255, 255, 255, 0.045);
+  }
+
+
+  .divider {
+    display: none;
+  }
+
+
+  .iconWrapper {
+    width: 38px;
+    height: 38px;
+
+    border-radius: 10px;
+  }
+
+
+  .value {
+    font-size: 16px;
+  }
+
+
+  .label {
+    font-size: 10px;
+  }
+
+
+  .description {
+    font-size: 8px;
+  }
+
+}
