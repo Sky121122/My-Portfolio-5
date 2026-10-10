@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import styles from './Navbar.module.css';
 
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -36,6 +37,8 @@ function Navbar() {
             Software Engineer
           </span>
         </button>
+
+     
 
         {/* Desktop Navigation */}
         <div className={styles.desktopNav}>

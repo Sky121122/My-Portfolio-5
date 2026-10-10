@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import { Mascot } from 'page-mascot'
 import {
   Globe2,
   Smartphone,
@@ -206,6 +206,8 @@ function Services() {
         </div>
 
 
+
+
         {/* ================= CTA ================= */}
 
         <motion.div
@@ -231,13 +233,19 @@ function Services() {
             <span className={styles.ctaLabel}>
               HAVE A PROJECT IN MIND?
             </span>
-
+            
             <h3>
               Let's build something
               <span> useful.</span>
             </h3> 
 
           </div>
+          <div className={styles.mosAvatar}>
+                            <Mascot size={100}
+                                directions="/mascots/tv-directions.webp"
+                                reactions="/mascots/tv-reactions.webp"
+                              />
+                         </div>
 
           <a
             href="https://www.linkedin.com/in/saket-yadav-b90a3525b/"

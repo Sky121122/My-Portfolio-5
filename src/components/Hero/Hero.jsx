@@ -1,7 +1,7 @@
 import { ArrowRight, Download, MapPin, Code2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
-
+import { Mascot } from 'page-mascot'
 function Hero() {
   const scrollToProjects = () => {
     document.getElementById('projects')?.scrollIntoView({
@@ -63,10 +63,11 @@ function Hero() {
               Web <i>•</i> Mobile <i>•</i> Backend
             </span>
           </div>
-
+  
           {/* Buttons */}
           <div className={styles.actions}>
 
+            
             <button
               className={styles.primaryButton}
               onClick={scrollToProjects}
@@ -74,7 +75,12 @@ function Hero() {
               View My Work
               <ArrowRight size={17} />
             </button>
-
+   <div className={styles.mosAvatar}>
+                  <Mascot className={styles.moscot}
+                      directions="/mascots/tv-directions.webp"
+                      reactions="/mascots/tv-reactions.webp"
+                    />
+               </div>
             <a
               href="https://drive.google.com/file/d/1gKjdzolfbJbLgZ4BeWRgSwJTC9UwSrIA/view"
               download

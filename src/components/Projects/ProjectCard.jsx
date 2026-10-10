@@ -2,11 +2,16 @@ import {
   ArrowUpRight,
   ExternalLink,
 } from 'lucide-react';
+import { createAvatar } from '@bible-strong/avatar-react'
+import '@bible-strong/avatar-react/styles.css'
+import definition from './avatar.avatar.json'
 
 import { motion } from 'framer-motion';
 
 import styles from './ProjectCard.module.css';
 
+
+const Avatar = createAvatar(definition)
 
 function ProjectCard({
   project,
@@ -14,7 +19,8 @@ function ProjectCard({
 }) {
 
   return (
-
+<>
+      
     <motion.article
 
       className={styles.card}
@@ -62,10 +68,14 @@ function ProjectCard({
 
       </div>
 
+      <div className={styles.emojiAvatar}>
+          <Avatar size={80} defaultAnimation="surprised" />
+      </div>
 
       {/* CONTENT */}
 
       <div className={styles.content}>
+
 
         <h3 className={styles.title}>
           {project.title}
@@ -121,7 +131,7 @@ function ProjectCard({
       </div>
 
     </motion.article>
-
+</>
   );
 }
 
