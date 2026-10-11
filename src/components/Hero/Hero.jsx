@@ -102,7 +102,7 @@ function Hero() {
 
             <div>
               <Code2 size={15} />
-              <span>MERN • React Native</span>
+              <span>MERN • React Native • Kotlin</span>
             </div>
 
           </div>

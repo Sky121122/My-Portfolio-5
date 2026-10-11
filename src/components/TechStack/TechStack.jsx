@@ -26,7 +26,7 @@ function TechStack() {
       technologies: [
         {
           name: 'React.js',
-          short: 'React',
+          short: 'R',
         },
         {
           name: 'JavaScript',
@@ -34,11 +34,11 @@ function TechStack() {
         },
         {
           name: 'HTML',
-          short: 'HTML',
+          short: '</>',
         },
         {
           name: 'CSS',
-          short: 'CSS',
+          short: 'C',
         },
         {
           name: 'Tailwind CSS',
@@ -58,15 +58,15 @@ function TechStack() {
       technologies: [
         {
           name: 'Node.js',
-          short: 'Node',
+          short: 'N',
         },
         {
           name: 'Express.js',
-          short: 'Express',
+          short: 'E',
         },
         {
           name: 'MongoDB',
-          short: 'Mongo',
+          short: 'M',
         },
         {
           name: 'PostgreSQL',
@@ -90,7 +90,7 @@ function TechStack() {
         },
         {
           name: 'Expo',
-          short: 'Expo',
+          short: 'E',
         },
         {
           name: 'Android Studio',
@@ -98,7 +98,11 @@ function TechStack() {
         },
         {
           name: 'Java',
-          short: 'Java',
+          short: 'J',
+        },
+        {
+          name: 'Kotlin',
+          short: 'K',
         },
       ],
     },
@@ -114,15 +118,15 @@ function TechStack() {
       technologies: [
         {
           name: 'Git',
-          short: 'Git',
+          short: 'G',
         },
         {
           name: 'GitHub',
-          short: 'GitHub',
+          short: 'GH',
         },
         {
           name: 'Figma',
-          short: 'Figma',
+          short: 'F',
         },
         {
           name: 'Postman',
@@ -130,11 +134,11 @@ function TechStack() {
         },
          {
           name: 'GSAP',
-          short: 'GSAP',
+          short: 'G',
         },
          {
           name: 'Canva',
-          short: 'CANVA',
+          short: 'C',
         },
       ],
     },

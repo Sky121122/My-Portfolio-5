@@ -240,6 +240,7 @@ function Services() {
             </h3> 
 
           </div>
+          
           <div className={styles.mosAvatar}>
                             <Mascot size={100}
                                 directions="/mascots/tv-directions.webp"
