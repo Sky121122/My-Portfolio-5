@@ -18,7 +18,7 @@
   padding: 0 14px 0 18px;
 
   background: transparent;
-  border: 1.4px solid rgba(124, 58, 237, 0.25);
+  border: 1.4px solid rgba(143, 174, 152, 0.25);
   border-radius: 18px;
   backdrop-filter: blur(8px);
   box-shadow:
@@ -48,8 +48,8 @@
 
   background: linear-gradient(
     135deg,
-    #7c3aed,
-    #5b21b6
+    #8fae98,
+    #3f624a
   );
 
   color: white;
@@ -57,7 +57,7 @@
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   font-size: 15px;
-  box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);
+  box-shadow: 0 0 25px rgba(143, 174, 152, 0.35);
 }
 
 .logoName {
@@ -89,7 +89,7 @@
 .navLink:hover {
   color: #a4a9b2;
   border-radius: 12px;
-  border: #5b21b6 1.3px solid;
+  border: #3f624a 1.3px solid;
   background: rgba(30, 33, 44, 0.78);
   padding: 3px 10px;
 }
@@ -129,7 +129,7 @@
 }
 
 .contactButton {
-  border: 1px solid rgba(167, 139, 250, 0.5);
+  border: 1px solid rgba(143, 174, 152, 0.5);
 
   background: transparent;
 
@@ -145,9 +145,9 @@
 }
 
 .contactButton:hover {
-  background: var(--purple);
-  border-color: var(--purple);
-  box-shadow: 0 0 25px rgba(124, 58, 237, 0.35);
+  background: var(--sage);
+  border-color: var(--sage);
+  box-shadow: 0 0 25px rgba(143, 174, 152, 0.35);
 }
 
 .menuButton {
@@ -232,14 +232,14 @@
   }
 
   .mobileMenu button:hover {
-    background: rgba(124, 58, 237, 0.08);
+    background: rgba(143, 174, 152, 0.08);
     color: white;
   }
 
   .mobileMenu .mobileContact {
     margin-top: 5px;
 
-    background: var(--purple);
+    background: var(--sage);
 
     color: white;
 
