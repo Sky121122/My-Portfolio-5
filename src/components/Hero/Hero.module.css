@@ -187,12 +187,12 @@
 
   margin-top: 8px;
 
-  color: #a9c5ae;
+  color: #587B63;
 
   background: linear-gradient(
     100deg,
     #c2d5c5,
-    #8fae98
+    #587B63
   );
 
   -webkit-background-clip: text;
@@ -247,7 +247,7 @@
 }
 
 .role i {
-  color: #8fae98;
+  color: #587B63;
 
   font-style: normal;
 
@@ -293,11 +293,11 @@
 
 
 .primaryButton {
-  border: 1px solid #789b83;
+  border: 1px solid #587B63;
 
   background: linear-gradient(
     135deg,
-    #8fae98,
+    #587B63,
     #587b63
   );
 
@@ -313,6 +313,8 @@
 
   box-shadow:
     0 15px 40px rgba(143, 174, 152, 0.35);
+
+  background: #22c55e;
 }
 
 
@@ -360,7 +362,7 @@
 
 
 .quickInfo svg {
-  color: #8fae98;
+  color: #587B63;
 }
 
 
@@ -386,7 +388,7 @@
 
   top: 100px;
 
-  background: #8fae98;
+  background: #587B63;
 
   opacity: 0.17;
 
@@ -428,7 +430,7 @@
   background: linear-gradient(
     90deg,
     transparent,
-    #8fae98,
+    #587B63,
     transparent
   );
 
@@ -579,7 +581,7 @@
   width: 5px;
   height: 5px;
 
-  background: #8fae98;
+  background: #587B63;
 
   border-radius: 50%;
   font-size: 12px;
