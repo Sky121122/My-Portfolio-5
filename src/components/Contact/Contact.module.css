@@ -17,7 +17,7 @@
 .label {
   margin-bottom: 20px;
 
-  color: #a9c5ae;
+  color: #587B63;
 
   font-size: 18px;
 
@@ -426,7 +426,7 @@
 
   border:
     1px solid
-    #789b83;
+    #587B63;
 
   border-radius: 8px;
 
@@ -437,7 +437,7 @@
   color: #ffffff;
 
   background:
-    #8fae98;
+    #587B63;
 
   font-family: inherit;
 
@@ -452,8 +452,7 @@
 
 
 .submit:hover {
-  background:
-    #587b63;
+  background: #22c55e;
 
   transform:
     translateY(-2px);
