@@ -34,7 +34,7 @@ a {
 }
 
 ::selection {
-  background: #8fae98;
+  background: #587B63;
   color: #ffffff;
 }
 
@@ -50,7 +50,7 @@ a {
   --text-secondary: #9ca3af;
   --text-muted: #626873;
 
-  --sage: #8fae98;
+  --sage: #587B63;
   --sage-light: #c2d5c5;
 
   --green: #22c55e;
