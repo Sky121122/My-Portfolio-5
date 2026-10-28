@@ -57,7 +57,7 @@
   right: 5%;
   top: 5%;
 
-  background: rgba(124, 58, 237, 0.14);
+  background: rgba(143, 174, 152, 0.14);
 
   filter: blur(130px);
 
@@ -187,12 +187,12 @@
 
   margin-top: 8px;
 
-  color: #9b6cff;
+  color: #a9c5ae;
 
   background: linear-gradient(
     100deg,
-    #a78bfa,
-    #7c3aed
+    #c2d5c5,
+    #8fae98
   );
 
   -webkit-background-clip: text;
@@ -247,7 +247,7 @@
 }
 
 .role i {
-  color: #7c3aed;
+  color: #8fae98;
 
   font-style: normal;
 
@@ -293,18 +293,18 @@
 
 
 .primaryButton {
-  border: 1px solid #8b5cf6;
+  border: 1px solid #789b83;
 
   background: linear-gradient(
     135deg,
-    #7c3aed,
-    #6d28d9
+    #8fae98,
+    #587b63
   );
 
   color: white;
 
   box-shadow:
-    0 10px 35px rgba(124, 58, 237, 0.2);
+    0 10px 35px rgba(143, 174, 152, 0.2);
 }
 
 
@@ -312,7 +312,7 @@
   transform: translateY(-2px);
 
   box-shadow:
-    0 15px 40px rgba(124, 58, 237, 0.35);
+    0 15px 40px rgba(143, 174, 152, 0.35);
 }
 
 
@@ -360,7 +360,7 @@
 
 
 .quickInfo svg {
-  color: #7c3aed;
+  color: #8fae98;
 }
 
 
@@ -386,7 +386,7 @@
 
   top: 100px;
 
-  background: #7c3aed;
+  background: #8fae98;
 
   opacity: 0.17;
 
@@ -428,12 +428,12 @@
   background: linear-gradient(
     90deg,
     transparent,
-    #7c3aed,
+    #8fae98,
     transparent
   );
 
   box-shadow:
-    0 0 30px rgba(124, 58, 237, 0.8);
+    0 0 30px rgba(143, 174, 152, 0.8);
 }
 
 
@@ -446,7 +446,7 @@
 
   filter:
     drop-shadow(
-      0 0 30px rgba(124, 58, 237, 0.25)
+      0 0 30px rgba(143, 174, 152, 0.25)
     );
 
     /* left: -200px; */
@@ -473,7 +473,7 @@
 
   background: rgba(15, 17, 23, 0.82);
 
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  border: 1px solid rgba(143, 174, 152, 0.3);
 
   border-radius: 16px;
 
@@ -579,12 +579,12 @@
   width: 5px;
   height: 5px;
 
-  background: #7c3aed;
+  background: #8fae98;
 
   border-radius: 50%;
   font-size: 12px;
   box-shadow:
-    0 0 10px rgba(124, 58, 237, 0.9);
+    0 0 10px rgba(143, 174, 152, 0.9);
 }
 
 

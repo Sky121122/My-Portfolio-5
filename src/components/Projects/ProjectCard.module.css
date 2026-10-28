@@ -21,7 +21,7 @@
 .card:hover {
   transform: translateY(-6px);
 
-border: 1.6px solid rgba(124, 58, 237, 0.3);
+border: 1.6px solid rgba(143, 174, 152, 0.3);
 
   box-shadow:
     0 20px 50px rgba(0, 0, 0, 0.28);
@@ -219,9 +219,9 @@ border: 1.6px solid rgba(124, 58, 237, 0.3);
 
   color: #ffffff;
 
-  background: #7c3aed;
+  background: #8fae98;
 
-  border: 1px solid #7c3aed;
+  border: 1px solid #8fae98;
   border-radius: 8px;
 
   transition:
@@ -230,7 +230,7 @@ border: 1.6px solid rgba(124, 58, 237, 0.3);
 }
 
 .primaryLink:hover {
-  background: #6d28d9;
+  background: #587b63;
 
   transform: translateY(-1px);
 }

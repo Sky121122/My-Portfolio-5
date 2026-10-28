@@ -15,7 +15,7 @@
 .label {
   margin-bottom: 20px;
 
-  color: #9b6cff;
+  color: #a9c5ae;
 
   font-size: 18px;
 
@@ -67,7 +67,7 @@
   background:
     linear-gradient(
       90deg,
-      rgba(124, 58, 237, 0.025),
+      rgba(143, 174, 152, 0.025),
       transparent
     );
 }
@@ -119,14 +119,14 @@
 
   border-radius: 9px;
 
-  color: #a78bfa;
+  color: #c2d5c5;
 
   background:
-    rgba(124, 58, 237, 0.08);
+    rgba(143, 174, 152, 0.08);
 
   border:
     1px solid
-    rgba(124, 58, 237, 0.13);
+    rgba(143, 174, 152, 0.13);
 
   transition:
     background 0.25s ease,
@@ -136,11 +136,11 @@
 
 .stackRow:hover .categoryIcon {
   background:
-    rgba(124, 58, 237, 0.15);
+    rgba(143, 174, 152, 0.15);
 
   box-shadow:
     0 0 25px
-    rgba(124, 58, 237, 0.12);
+    rgba(143, 174, 152, 0.12);
 }
 
 
@@ -216,10 +216,10 @@
   transform: translateY(-2px);
 
   background:
-    rgba(124, 58, 237, 0.07);
+    rgba(143, 174, 152, 0.07);
 
   border-color:
-    rgba(124, 58, 237, 0.25);
+    rgba(143, 174, 152, 0.25);
 }
 
 
@@ -229,9 +229,9 @@
   display: grid;
   place-items: center;
   border-radius: 7px;
-  color: #b9a4ff;
+  color: #c2d5c5;
   background:
-    rgba(124, 58, 237, 0.09);
+    rgba(143, 174, 152, 0.09);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -273,10 +273,10 @@
 
   border-radius: 8px;
 
-  color: #8b6ae8;
+  color: #a9c5ae;
 
   background:
-    rgba(124, 58, 237, 0.07);
+    rgba(143, 174, 152, 0.07);
 }
 
 

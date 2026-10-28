@@ -17,7 +17,7 @@
 .label {
   margin-bottom: 20px;
 
-  color: #9b6cff;
+  color: #a9c5ae;
 
   font-size: 18px;
 
@@ -53,7 +53,7 @@
 
   padding: 30px;
 
-  border: 1px solid rgba(124, 58, 237, 0.3);
+  border: 1px solid rgba(143, 174, 152, 0.3);
   border-radius: 17px;
 
   background:
@@ -131,14 +131,14 @@
 
   border-radius: 9px;
 
-  color: #a78bfa;
+  color: #c2d5c5;
 
   background:
-    rgba(124, 58, 237, 0.06);
+    rgba(143, 174, 152, 0.06);
 
   border:
     2px solid
-    rgba(124, 58, 237, 0.13);
+    rgba(143, 174, 152, 0.13);
 }
 
 
@@ -191,7 +191,7 @@
 
 
 .contactItem:hover > svg {
-  color: #a78bfa;
+  color: #c2d5c5;
 
   transform:
     translate(2px, -2px);
@@ -257,7 +257,7 @@
   color: #ffffff;
 
   border-color:
-    rgba(124, 58, 237, 0.3);
+    rgba(143, 174, 152, 0.3);
 
   transform:
     translateY(-2px) scale(1.2);
@@ -269,7 +269,7 @@
 .form {
   padding: 30px;
 
-   border: 1px solid rgba(124, 58, 237, 0.3);
+   border: 1px solid rgba(143, 174, 152, 0.3);
 
   border-radius: 17px;
 
@@ -399,10 +399,10 @@
 .field input:focus,
 .field textarea:focus {
   border-color:
-    rgba(124, 58, 237, 0.4);
+    rgba(143, 174, 152, 0.4);
 
   background:
-    rgba(124, 58, 237, 0.025);
+    rgba(143, 174, 152, 0.025);
 }
 
 
@@ -426,7 +426,7 @@
 
   border:
     1px solid
-    #8b5cf6;
+    #789b83;
 
   border-radius: 8px;
 
@@ -437,7 +437,7 @@
   color: #ffffff;
 
   background:
-    #7c3aed;
+    #8fae98;
 
   font-family: inherit;
 
@@ -453,7 +453,7 @@
 
 .submit:hover {
   background:
-    #6d28d9;
+    #587b63;
 
   transform:
     translateY(-2px);

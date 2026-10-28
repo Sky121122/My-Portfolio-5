@@ -25,7 +25,7 @@
 
   background: rgba(16, 18, 22, 0.72);
 
-  border: 1px solid rgba(124, 58, 237, 0.18);
+  border: 1px solid rgba(143, 174, 152, 0.18);
 
   border-radius: 18px;
 
@@ -67,13 +67,13 @@
 
   border-radius: 12px;
 
-  color: #a78bfa;
+  color: #c2d5c5;
 
   background:
-    rgba(124, 58, 237, 0.08);
+    rgba(143, 174, 152, 0.08);
 
   border:
-    1px solid rgba(124, 58, 237, 0.15);
+    1px solid rgba(143, 174, 152, 0.15);
 
   transition:
     transform 0.25s ease,
@@ -86,10 +86,10 @@
   transform: translateY(-2px);
 
   background:
-    rgba(124, 58, 237, 0.15);
+    rgba(143, 174, 152, 0.15);
 
   box-shadow:
-    0 8px 25px rgba(124, 58, 237, 0.15);
+    0 8px 25px rgba(143, 174, 152, 0.15);
 }
 
 
