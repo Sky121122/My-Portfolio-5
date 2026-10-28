@@ -219,9 +219,9 @@ border: 1.6px solid rgba(143, 174, 152, 0.3);
 
   color: #ffffff;
 
-  background: #8fae98;
+  background: #587B63;
 
-  border: 1px solid #8fae98;
+  border: 1px solid #587B63;
   border-radius: 8px;
 
   transition:
@@ -230,7 +230,7 @@ border: 1.6px solid rgba(143, 174, 152, 0.3);
 }
 
 .primaryLink:hover {
-  background: #587b63;
+  background: #22c55e;
 
   transform: translateY(-1px);
 }
