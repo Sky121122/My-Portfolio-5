@@ -35,7 +35,7 @@ function Services() {
         'React Native',
         'Expo',
         'Android',
-        'Java',
+        'Kotlin',
       ],
     },
 

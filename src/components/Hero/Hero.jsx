@@ -82,7 +82,7 @@ function Hero() {
                     />
                </div>
             <a
-              href="https://drive.google.com/file/d/1gKjdzolfbJbLgZ4BeWRgSwJTC9UwSrIA/view"
+              href="https://drive.google.com/file/d/1F1I72aqJCYMhsrR9EPoejFVQya6mKC1t/view?usp=sharing"
               download
               className={styles.secondaryButton}
             >
@@ -150,7 +150,7 @@ function Hero() {
 
             <div className={styles.statusItem}>
               <span>✓</span>
-              Based in India
+              Works on MERN & Android
             </div>
 
             <div className={styles.statusItem}>
