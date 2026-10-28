@@ -13,7 +13,7 @@
 .label {
   margin-bottom: 20px;
 
-  color: #a9c5ae;
+  color: #587B63;
 
   font-size: 18px;
 
@@ -247,7 +247,7 @@
 .category {
   margin-bottom: 9px;
 
-  color: #a9c5ae;
+  color: #587B63;
 
   font-size: 12px;
 
@@ -412,19 +412,18 @@
   color: white;
 
   background:
-    #8fae98;
+    #587B63;
 
   border:
     1px solid
-    #789b83;
+    #587B63;
 }
 
 
 .liveButton:hover {
   transform: translateY(-2px);
 
-  background:
-    #587b63;
+  background: #22c55e;
 }
 
 
@@ -844,10 +843,10 @@ border: none;
 
   color: white;
 
-  background: #8fae98;
+  background: #587B63;
 
   border:
-    1px solid #8fae98;
+    1px solid #587B63;
 
 }
 
@@ -856,7 +855,7 @@ border: none;
 
   transform: translateY(-2px);
 
-  background: #587b63;
+  background: #22c55e;
 
 }
 
