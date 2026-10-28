@@ -13,7 +13,7 @@
 .label {
   margin-bottom: 20px;
 
-  color: #9b6cff;
+  color: #a9c5ae;
 
   font-size: 18px;
 
@@ -102,7 +102,7 @@
   transform: translateY(-5px);
 
   border-color:
-    rgba(124, 58, 237, 0.35);
+    rgba(143, 174, 152, 0.35);
 
   box-shadow:
     0 30px 80px
@@ -247,7 +247,7 @@
 .category {
   margin-bottom: 9px;
 
-  color: #8f68e8;
+  color: #a9c5ae;
 
   font-size: 12px;
 
@@ -301,9 +301,9 @@
 
 .projectCard:hover .arrow {
   background:
-    rgba(124, 58, 237, 0.1);
+    rgba(143, 174, 152, 0.1);
 
-  color: #a78bfa;
+  color: #c2d5c5;
 
   transform: translate(2px, -2px);
 }
@@ -359,10 +359,10 @@
 
 
 .technology:hover {
-  color: #b7a3f5;
+  color: #c2d5c5;
 
   border-color:
-    rgba(124, 58, 237, 0.25);
+    rgba(143, 174, 152, 0.25);
 }
 
 
@@ -412,11 +412,11 @@
   color: white;
 
   background:
-    #7c3aed;
+    #8fae98;
 
   border:
     1px solid
-    #8b5cf6;
+    #789b83;
 }
 
 
@@ -424,7 +424,7 @@
   transform: translateY(-2px);
 
   background:
-    #6d28d9;
+    #587b63;
 }
 
 
@@ -844,10 +844,10 @@ border: none;
 
   color: white;
 
-  background: #7c3aed;
+  background: #8fae98;
 
   border:
-    1px solid #7c3aed;
+    1px solid #8fae98;
 
 }
 
@@ -856,7 +856,7 @@ border: none;
 
   transform: translateY(-2px);
 
-  background: #6d28d9;
+  background: #587b63;
 
 }
 
