@@ -34,7 +34,7 @@ a {
 }
 
 ::selection {
-  background: #7c3aed;
+  background: #8fae98;
   color: #ffffff;
 }
 
@@ -50,8 +50,8 @@ a {
   --text-secondary: #9ca3af;
   --text-muted: #626873;
 
-  --purple: #7c3aed;
-  --purple-light: #a78bfa;
+  --sage: #8fae98;
+  --sage-light: #c2d5c5;
 
   --green: #22c55e;
 
@@ -72,12 +72,12 @@ body::before {
   background:
     radial-gradient(
       circle at 75% 10%,
-      rgba(124, 58, 237, 0.13),
+      rgba(143, 174, 152, 0.13),
       transparent 30%
     ),
     radial-gradient(
       circle at 15% 60%,
-      rgba(124, 58, 237, 0.05),
+      rgba(143, 174, 152, 0.05),
       transparent 30%
     );
 }
@@ -105,7 +105,7 @@ body::before {
 }
 
 .accent {
-  color: var(--purple-light);
+  color: var(--sage-light);
 }
 
 @media (max-width: 768px) {
